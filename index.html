@@ -1,44 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-    <link rel="stylesheet" href="style.css">
+<head> <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <div class="search">
-            <input type="text" placeholder="enter city name" spellcheck="false">
-            <button><img src="image/search.png"></button>
-        </div>
-        <div class="error">
-            <p>Invalid city name</p>
-        </div>
-        <div class="weather">
-            <img src="image/rain.png" class="weather-icon">
-            <h1 class="temp">22°c</h1>
-            <h2 class="city">New york</h2>
-            <div class="details">
-                <div class="col">
-                    <img src="image/humidity.png">
-                    <div>
-                        <p class="humidity">50%</p>
-                        <p>Humidity</p>
-                    </div>
-                    <div class="col">
-                        <img src="image/wind.png">
-                        <div>
-                            <p class="wind">15km/h</p>
-                            <p>Wind Speed</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <script src="script.js"></script>
-       </body>
-       </html>
+  <!-- Navigation Menu -->
+  <header class="navbar" id="navbar">
+    <div class="logo">MyBrand</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <!-- Sections -->
+  <section id="home" class="section">Home Section</section>
+  <section id="services" class="section">Services Section</section>
+  <section id="about" class="section">About Section</section>
+  <section id="contact" class="section">Contact Section</section>
 
+  <script src="script.js"></script>
+</body>
+</html>
